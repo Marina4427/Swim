@@ -1,0 +1,37 @@
+.btn-outline {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  min-height: 48px;
+  max-width: fit-content;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #92b8ed;
+	font-size: clamp(13px, 1.2vw, 16px);
+  transition: opacity 0.2s ease-in;
+}
+
+.btn-outline:hover {
+  opacity: 0.8;
+}
+
+.btn-outline:active {
+  position: relative;
+  top: 1px;
+}
+
+.btn-link {
+  display: flex;
+  max-width: fit-content;
+  padding: 2px 5px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #a3c1eac6;
+}
+
+@media (max-width: 1024px) {
+  .nav .btn-outline {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+.nav__title {
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 2.5rem;
+  padding-left: 6.3rem;
+  font-family: Manrope;
+  letter-spacing: -0.5px;
+  color: transparent;
+  -webkit-text-stroke: 0.5px black;
+  position: relative;
+  display: inline-block;
+}
+
+
+.nav__title::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 6.4rem;
+  color: #00a2ff1d;
+  -webkit-text-stroke: 5px #00a2ff0f;
+}
+
+.logo {
+  max-width: 120px;
+  transform: scaleX(-1);
+  position: absolute;
+  left: -10%;
+  top: 10%;
+}
+
+.nav__title-block {
+  position: relative;
+  padding-right: 5%;
+}
+
+.nav__subtitle {
+  font-size: clamp(12px, 1vw, 14px);
+  padding-left: 4rem;
+  font-family: Montserrat;
+}

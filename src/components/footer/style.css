@@ -1,0 +1,71 @@
+.header__title {
+  font-family: CherrySwash;
+  font-size: 27px;
+  color: inherit;
+  line-height: 1;
+  font-weight: 800;
+  margin: -4px 0 0 8px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer {
+  background-color: #2495f280;
+  color: white;
+  padding: 4.125rem 0 2.75rem 5%;
+  border-top: 1.4px solid rgba(118, 191, 225, 0.805);
+  width: 100%;
+}
+
+.links-block {
+  display: flex;
+  justify-content: center;3
+  
+}
+
+.footer_column {
+  max-width: 35%;
+  padding-right: 3.125rem;
+  font-size: clamp(13px, 2vw, 16px);
+}
+
+.footer h3 {
+  font-size: clamp(14px, 3vw, 16px);
+  padding-bottom: 0.75rem;
+  font-family: Montserrat;
+}
+
+.footer_column li {
+  line-height: 2;
+}
+
+.designed {
+  font-size: clamp(14px, 2vw, 14px);
+  padding: 2.85rem 0 0 0;
+  text-align: center;
+}
+
+.about_desc {
+  font-size: clamp(13px, 2vw, 16px);
+}
+
+a,
+li {
+  transition: 0.3s ease;3
+}
+
+.footer a:hover,
+li:hover {
+  color: rgba(53, 252, 255, 0.97);
+  text-shadow: 0 1px 1px rgba(77, 75, 75, 0.157);
+}
+
+@media (max-width: 768px) {
+  .links-block {
+    flex-direction: column;
+  }
+
+  .footer_column {
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+}

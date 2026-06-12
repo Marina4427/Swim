@@ -1,0 +1,7 @@
+.App {
+  margin: 0 auto;
+  background-image: url("../../assets/screen.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
