@@ -11,7 +11,7 @@ const Card = ({ id, img, skills, title, desk, price }) => {
 
       <div className="card_text_block">
         <div className="card_icon-block">
-          <img src={swim}></img>
+          <img src={swim} loading="lazy"></img>
           <p className="classes_type">{skills}</p>
         </div>
 

@@ -13,7 +13,7 @@ import Logo from "../../components/Logo";
 const Main = () => {
   return (
     <>
-      <section class="hero" id="main">
+      <section className="hero" id="main">
         <div className="hero_conteiner">
           <div className="main_nav">
             <Logo />
@@ -42,7 +42,6 @@ const Main = () => {
                 quibusdam! Numquam, doloribus soluta? Lorem ipsum, dolor sit
                 amet consectetur adipisicing elit. Pariatur, rem, tempora beatae
                 et ea maiores dolorem ipsam, alias exercitationem animi aliquam
-        
               </p>
               <Btn />
             </div>
@@ -58,7 +57,7 @@ const Main = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
             laborum similique neque et, maiores quos! Incidunt quam officia
             <br />
-            <p className="offer">Первое занятие - бесплатно</p>
+            <span className="offer">Первое занятие - бесплатно</span>
           </p>
           <CardList />
         </section>
@@ -114,7 +113,13 @@ const Main = () => {
             <br />
             Перейти в телеграмм канал можно по кнопке "Записаться на занятие"
             или при нажатии
-            <Icon />
+            <a
+              href="https://t.me/dolphin_school"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon />
+            </a>
             <br />
             Писать можно на украинском, русском, английском и финском языках.
             <br />
