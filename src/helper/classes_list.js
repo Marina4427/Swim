@@ -16,7 +16,7 @@ const classes = [
     id: "02",
     title: "Занятия для подростков",
     skills: "Swimming Course",
-    desk: "long established fact that a reader will distracted readable content page when looking at",
+    desk: "long established fact that a readgger will distracted readable content page when looking at",
     img: teen,
     price: "15 euro/class",
   },
